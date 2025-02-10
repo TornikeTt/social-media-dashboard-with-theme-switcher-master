@@ -1,6 +1,6 @@
-const All_The_Time_Data = [{}];
+const top_dashboard_data = [{}];
 
-const Overview_Today = [{}];
+const bottom_dashborad_data = [{}];
 
 export default data;
 

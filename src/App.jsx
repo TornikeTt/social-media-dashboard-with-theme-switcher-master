@@ -2,6 +2,7 @@ import "./App.scss";
 import { useState } from "react";
 
 import Header from "./components/Header/Header";
+import TopDashboard from "./components/TopDashboard/TopDashboard";
 
 function App() {
     const [toggle, setToggle] = useState(true);
@@ -14,6 +15,7 @@ function App() {
     return (
         <main style={mainStyle.main}>
             <Header toggle={toggle} setToggle={setToggle} />
+            <TopDashboard toggle={toggle} setToggle={setToggle} />
         </main>
     );
 }
