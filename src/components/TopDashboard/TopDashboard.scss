@@ -1,3 +1,5 @@
+@use "../../variables.scss";
+
 .dashboard-wrapper {
     position: relative;
 
@@ -8,4 +10,59 @@
 
 .dashboard-inner-wrapper {
     width: 77.5%;
+    margin-top: 42px;
+    display: flex;
+    gap: 29px;
+}
+
+.item {
+    flex: 1; // width: 243px;
+    height: 207px;
+    border-radius: 5px;
+    background-color: hsl(228, 28%, 20%);
+    border-top: 5px solid hsl(208, 92%, 53%);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-card__header {
+    display: inline-flex;
+    gap: 5px;
+    margin-top: 24px;
+
+    .social-card__username {
+        font-weight: bold;
+        font-size: 12px;
+        color: hsl(228, 34%, 66%);
+    }
+}
+
+.social-card__followers {
+    margin-top: 19px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .social-card__count {
+        font-size: 55px;
+    }
+
+    .social-card__label {
+        letter-spacing: 3px;
+    }
+}
+
+.social-card__today {
+    margin-top: 14px;
+
+    display: inline-flex;
+    align-items: center;
+    gap: 5px;
+
+    .social-card__today-text {
+        font-size: 12px;
+        font-weight: 600;
+    }
 }

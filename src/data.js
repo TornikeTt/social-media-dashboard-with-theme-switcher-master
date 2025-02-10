@@ -1,33 +1,43 @@
-const top_dashboard_data = [{}];
+export const top_dashboard_data = [
+    {
+        id: 1,
+        platformURL: "../images/icon-facebook.svg",
+        username: "@nathanf",
+        count: 1987,
+        metric: "Followers",
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 12,
+    },
+    {
+        id: 2,
+        platformURL: "../public/images/icon-twitter.svg",
+        username: "@nathanf",
+        count: 1044,
+        metric: "Followers",
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 99,
+    },
+    {
+        id: 3,
+        platformURL: "../public/images/icon-instagram.svg",
+        username: "@realnathanf",
+        count: "11k",
+        metric: "Followers",
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 1099,
+    },
+    {
+        id: 4,
+        platformURL: "../public/images/icon-youtube.svg",
+        username: "Nathan F.",
+        count: 8239,
+        metric: "Subscribers",
+        changeIconUrl: "../public/images/icon-down.svg",
+        change: 144,
+    },
+];
 
 const bottom_dashborad_data = [{}];
-
-export default data;
-
-//   Social Media Dashboard
-//   Total Followers: 23,004
-
-//   Dark Mode
-
-//   @nathanf
-//   1987
-//   Followers
-//   12 Today
-
-//   @nathanf
-//   1044
-//   Followers
-//   99 Today
-
-//   @realnathanf
-//   11k
-//   Followers
-//   1099 Today
-
-//   Nathan F.
-//   8239
-//   Subscribers
-//   144 Today
 
 //   Overview - Today
 
