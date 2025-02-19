@@ -1,4 +1,4 @@
-@use "../../variables.scss";
+@use "../../variables" as *;
 
 .dashboard-wrapper {
     position: relative;
@@ -26,6 +26,19 @@
 
     position: relative;
     overflow: hidden;
+    cursor: default !important;
+}
+
+.hoverDarkMode {
+    &:hover {
+        background: $C17_dark-grayish-blue-text !important;
+    }
+}
+
+.hoverWhieMode {
+    &:hover {
+        background: $C15_very-pale-blue-top-bg !important;
+    }
 }
 
 .item_topBorder {

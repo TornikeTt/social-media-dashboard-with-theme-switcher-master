@@ -50,7 +50,7 @@ function App() {
     return (
         <main style={styling.main}>
             <Header styling={styling} setToggle={setToggle} />
-            <TopDashboard styling={styling} />
+            <TopDashboard styling={styling} toggle={toggle} />
         </main>
     );
 }

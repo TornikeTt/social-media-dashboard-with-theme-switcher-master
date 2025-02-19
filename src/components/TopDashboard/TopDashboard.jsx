@@ -1,10 +1,14 @@
 import "./TopDashboard.scss";
 import { top_dashboard_data } from "../../data";
 
-export default function TopDashboard({ styling }) {
+export default function TopDashboard({ styling, toggle }) {
     const items = top_dashboard_data.map((each) => {
         return (
-            <div style={styling.cardBackground} className="item" key={each.id}>
+            <div
+                style={styling.cardBackground}
+                className={`item ${toggle ? "hoverDarkMode" : "hoverWhieMode"}`}
+                key={each.id}
+            >
                 <div
                     style={{ background: each.topBorder_color }}
                     className="item_topBorder"
