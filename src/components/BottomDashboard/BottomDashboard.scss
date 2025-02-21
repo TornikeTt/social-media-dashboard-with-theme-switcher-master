@@ -1,0 +1,78 @@
+@use "../../variables.scss" as *;
+
+.bottom-dashboard-wrapper {
+    width: 100%;
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.bottom-dashboard-inner-wrapper {
+    width: 77.5%;
+    margin-top: 42px;
+}
+
+.overview-title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.items-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 29px;
+    margin-top: 20px;
+}
+
+.items {
+    border-radius: 5px;
+    height: 120px;
+
+    padding: 20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    overflow: hidden;
+    cursor: pointer !important;
+
+    .top-part {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        p {
+            font-weight: 600;
+        }
+    }
+
+    .bottom-part {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+
+        div {
+            display: flex;
+            align-items: center;
+            gap: 3px;
+
+            p {
+                font-size: 12px;
+                font-weight: bold;
+            }
+        }
+    }
+}
+
+.hoverDarkMode {
+    &:hover {
+        background: $C17_dark-grayish-blue-text !important;
+    }
+}
+
+.hoverWhieMode {
+    &:hover {
+        background: $C15_very-pale-blue-top-bg !important;
+    }
+}

@@ -47,38 +47,85 @@ export const top_dashboard_data = [
     },
 ];
 
-const bottom_dashborad_data = [{}];
-
-//   Overview - Today
-
-//   Page Views
-//   87
-//   3%
-
-//   Likes
-//   52
-//   2%
-
-//   Likes
-//   5462
-//   2257%
-
-//   Profile Views
-//   52k
-//   1375%
-
-//   Retweets
-//   117
-//   303%
-
-//   Likes
-//   507
-//   553%
-
-//   Likes
-//   107
-//   19%
-
-//   Total Views
-//   1407
-//   12%
+export const bottom_dashboard_data = [
+    {
+        id: 1,
+        metric: "Page Views",
+        platformURL: "../images/icon-facebook.svg",
+        platformAlt: "Facebook icon",
+        count: 87,
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 3,
+        changeType: "up",
+    },
+    {
+        id: 2,
+        metric: "Likes",
+        platformURL: "../images/icon-facebook.svg",
+        platformAlt: "Facebook icon",
+        count: 52,
+        changeIconUrl: "../public/images/icon-down.svg",
+        change: 2,
+        changeType: "down",
+    },
+    {
+        id: 3,
+        platformURL: "../public/images/icon-instagram.svg",
+        platformAlt: "Instagram icon",
+        metric: "Likes",
+        count: 5462,
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 2257,
+        changeType: "up",
+    },
+    {
+        id: 4,
+        platformURL: "../public/images/icon-instagram.svg",
+        platformAlt: "Instagram icon",
+        metric: "Profile Views",
+        count: "52k",
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 1375,
+        changeType: "up",
+    },
+    {
+        id: 5,
+        platformURL: "../public/images/icon-twitter.svg",
+        platformAlt: "Twitter icon",
+        metric: "Retweets",
+        count: 117,
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 303,
+        changeType: "up",
+    },
+    {
+        id: 6,
+        platformURL: "../public/images/icon-twitter.svg",
+        platformAlt: "Twitter icon",
+        metric: "Likes",
+        count: 507,
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 553,
+        changeType: "up",
+    },
+    {
+        id: 7,
+        platformURL: "../public/images/icon-youtube.svg",
+        platformAlt: "YouTube icon",
+        metric: "Likes",
+        count: 107,
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 19,
+        changeType: "up",
+    },
+    {
+        id: 8,
+        platformURL: "../public/images/icon-youtube.svg",
+        platformAlt: "YouTube icon",
+        metric: "Total Views",
+        count: 1407,
+        changeIconUrl: "../public/images/icon-up.svg",
+        change: 12,
+        changeType: "up",
+    },
+];

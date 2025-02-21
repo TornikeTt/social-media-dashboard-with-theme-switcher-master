@@ -3,6 +3,7 @@ import { useState } from "react";
 
 import Header from "./components/Header/Header";
 import TopDashboard from "./components/TopDashboard/TopDashboard";
+import BottomDashboard from "./components/BottomDashboard/BottomDashboard";
 
 function App() {
     const [toggle, setToggle] = useState(true);
@@ -51,6 +52,7 @@ function App() {
         <main style={styling.main}>
             <Header styling={styling} setToggle={setToggle} />
             <TopDashboard styling={styling} toggle={toggle} />
+            <BottomDashboard styling={styling} toggle={toggle} />
         </main>
     );
 }
