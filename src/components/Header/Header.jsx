@@ -38,6 +38,7 @@ export default function Header({ styling, setToggle }) {
                         style={styling.headerThemeButton}
                         className="header__theme-button"
                         id="theme-toggle"
+                        aria-label="Toggle theme"
                     >
                         <span
                             style={styling.headerThemeCircle}
