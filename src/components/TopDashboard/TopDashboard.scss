@@ -86,3 +86,28 @@
         font-weight: 600;
     }
 }
+
+@media (max-width: 1010px) {
+    .dashboard-inner-wrapper {
+        width: 95%;
+        gap: 10px;
+    }
+}
+
+@media (max-width: 800px) {
+    .dashboard-inner-wrapper {
+        width: 70%;
+        gap: 29px;
+        flex-direction: column;
+    }
+
+    .item {
+        flex: auto;
+        height: 220px;
+        justify-content: center;
+    }
+
+    .item_topBorder {
+        top: 0;
+    }
+}
